@@ -44,3 +44,18 @@
 // val5[0] = "bird";
 // val5.push("monkey");
 // console.log(val5);
+
+/**
+ * テンプレート文字列
+ */
+const name = "aki110";
+const age = "26";
+// 「My name is aki110. My age is 26.」
+
+// 従来の方法
+const message1 = "My name is " + name + ". My age is " + age + ".";
+console.log(message1);
+
+// テンプレート文字列を用いた方法
+const message2 = `My name is ${name}. My age is ${age}.`;
+console.log(message2);
